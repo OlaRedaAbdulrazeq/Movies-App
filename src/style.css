@@ -10,6 +10,9 @@ html::-webkit-scrollbar-thumb {
   background-color:#ff2c1f ;
   border-radius: 5rem;
 }
+#home {
+  background-image: url('./img/home3.jpg');
+}
 
 
 
