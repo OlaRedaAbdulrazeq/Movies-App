@@ -1,0 +1,21 @@
+
+
+/* custom scroll bar  */
+
+ html::-webkit-scrollbar {
+  width: 0.5rem;
+  background-color: #020307;
+} 
+html::-webkit-scrollbar-thumb {
+  background-color:#ff2c1f ;
+  border-radius: 5rem;
+}
+
+
+
+
+
+
+
+
+

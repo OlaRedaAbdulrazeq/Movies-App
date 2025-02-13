@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import '~@fortawesome/fontawesome-free/css/all.min.css';
+
+.responsiveheader {
+  @apply  max-[991px]:py-[18px]    max-[991px]:px-xl  max-[774px]:py-12px    max-[774px]:px-lg     max-[370px]:py-1.5    max-[370px]:px-sm ;
+}
+
+.section {
+  @apply py-4.5rem px-6 max-[991px]:py-50px max-[991px]:px-[4%]  ;
+} 
+.container {
+  @apply max-w-1000 ml-auto mr-auto grid grid-cols-lg gap-4 mt-8 max-[774px]:grid-cols-lgscreen max-[370px]:grid-cols-smscreen;
+}
+
+
+.responsivehometext {
+  @apply absolute pl-[80px] top-[40%] max-[1080px]:py-0 max-[1080px]:pr-[100px]  max-[991px]:py-0 max-[991px]:pr-[4%];
+}
+
+.Heading2 {
+  @apply font-bold text-4rem mb-4 ;
+}
+
+.responsiveHeading2 {
+  @apply   max-[991px]:text-[3rem]     max-[774px]:text-[2.4rem]    max-[370px]:text-[1.7rem]     max-[300px]:text-[1.2rem];
+}
+
+
+.btn {
+  @apply   hover:bg-[#fa1216] border-0 cursor-pointer bg-Main rounded-lg  max-[774px]:py-0.6rem max-[774px]:px-1.2rem ;
+}
+ .NAV {
+ @apply max-[774px]:absolute  max-[774px]:inset-x-0  max-[774px]:flex  max-[774px]:flex-col max-[774px]:bg-bgColor  max-[774px]:gap-y-[1.4rem] max-[774px]:p-[20px] max-[774px]:text-center ;
+}
+ .anchor {
+  @apply max-[774px]:text-textColor max-[774px]:transition-all max-[774px]:ease-linear max-[774px]:duration-300 max-[774px]:hover:text-Main max-[774px]:hover:border-b-[2px] max-[774px]:hover:border-b-Main;
+}  
+.anchor-after {
+  @apply  after:flex after:content-[''] after:absolute after:bg-Main after:w-0 after:h-[3px] after:left-0 after:bottom-[-4px] after:transition-all after:duration-400 after:ease-linear hover:after:w-full max-[774px]:hover:after:w-0 ;
+} 
+
+.heading {
+  @apply  font-medium text-1.2rem uppercase border-b border-Main max-w-[1000px] mx-auto;
+}
+
+.box-img {
+  @apply  w-full h-[270px];
+}
+
+.img {
+  @apply w-full h-full object-cover cursor-pointer transition-all duration-200 ease-linear hover:translate-y-[-10px] max-[370px]:h-[240px];
+}
+
+.Heading3 {
+  @apply text-[0.9rem] font-medium text-Main  ;
+}
+
+.md-footer {
+    @apply  max-[472px]:flex-col max-[472px]:items-center max-[472px]:gap-y-4;
+  }
+
+.anchor-social-icon {
+@apply w-[55px] h-[55px] rounded-[50%] text-[2rem] text-center text-Main leading-[55px] bg-bgColor border-[4px] border-custom transition-all ease-linear duration-200 hover:bg-Main hover:text-bgColor;
+}
